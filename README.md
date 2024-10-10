@@ -1,70 +1,73 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Kanban Board Master
 
-## Available Scripts
+A simple and effective Kanban board application to help you manage your tasks and projects efficiently. This project is designed to visualize work progress, prioritize tasks, and streamline productivity.
 
-In the project directory, you can run:
+## Features
+- **Create Boards:** Create multiple boards to categorize different projects.
+- **Add Lists:** Add lists to represent various stages of the task (To Do, In Progress, Done, etc.).
+- **Create Cards:** Create task cards within each list to represent individual tasks.
+- **Drag and Drop:** Easily move cards between lists using drag-and-drop functionality.
+- **Edit and Delete:** Edit and delete boards, lists, and cards with ease.
+- **Responsive Design:** User-friendly interface that works seamlessly on both desktop and mobile devices.
 
-### `npm start`
+## Tech Stack
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (for storing board data)
+- **Drag-and-Drop:** Implemented using JavaScript libraries
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
+Make sure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (v12 or higher)
+- [MongoDB](https://www.mongodb.com/)
 
-### `npm test`
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Likhita2004/Kanban-Board-Master.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd Kanban-Board-Master
+   ```
+3. **Install the dependencies:**
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Configuration
+1. Create a `.env` file in the root directory of the project.
+2. Add your MongoDB connection string to the `.env` file:
+   ```
+   MONGO_URI=your_mongodb_connection_string
+   ```
 
-### `npm run build`
+### Running the Application
+To start the development server, run:
+```bash
+npm start
+```
+Visit `http://localhost:3000` in your web browser to see the application in action.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+1. **Create a new board** by clicking on the "Add Board" button.
+2. **Add lists** to your board to represent different stages.
+3. **Create cards** within each list to track tasks.
+4. **Drag and drop** cards between lists as tasks progress.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
+We welcome contributions to enhance the features and functionality of this Kanban board. To contribute, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+If you have any questions or suggestions, feel free to open an issue or contact the project owner directly at [Likhita2004](https://github.com/Likhita2004).
